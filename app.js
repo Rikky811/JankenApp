@@ -1,4 +1,4 @@
-function janken(choice)  [
+function janken(choice)  {
     //html内の要素をjs内の変数に充てはめる
     let resultElement = document.getElementById("ResultMessage");
     let PlayersChoiceElement = document.getElementById("PlayersChoice");
@@ -69,4 +69,3 @@ function Judgement(PlayersChoice, PCsChoice)
     return resultMsg;
 
 }
-]
